@@ -31,6 +31,7 @@ st.set_page_config(page_title="주식 차트 대시보드", layout="wide")
 
 # 대시보드 제목
 st.title("주식 차트 대시보드")
+st.title("대시보드코드 업데이트!!!!")
 
 # 티커 파일에서 데이터 로드
 @st.cache_data
@@ -49,6 +50,7 @@ def load_tickers():
 
 # 사이드바 - 사용자 입력
 st.sidebar.header("주식 정보")
+st.sidebar.header("대시보드코드 업데이트!!!!!")
 tickers = load_tickers()
 selected_company = st.sidebar.selectbox(
     "기업 선택",
